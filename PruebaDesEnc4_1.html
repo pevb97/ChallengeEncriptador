@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<html lang="es"><!-- Escoger el idioma de mi pagina -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Encripta-Desencripta</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="PruebaDesEnc4_1.css"><!-- Conexion con archivo css -->
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Encripta-Desencripta</h1>
+            <nav>
+                <ul>
+                    <li><a href="Encriptacion.html">Encriptacion</a></li>
+                    <li><a href="Desencriptacion.html">Desencriptacion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="entrada">
+            <form>
+                <input id="entTexto" type="text" placeholder="Ingrese el texto a procesar" autofocus>
+                <div>
+                    <input type="button" id="btnDesencriptar" value="Desencriptar">
+                    <input type="button" id="btnEncriptar" value="Encriptar">
+                </div>
+            </form>
+        </div>
+
+        <div id="resultado">
+            <label style="font-size: 42px">
+                <p>
+                    <img src="https://trello.com/1/cards/62261d46bd86ed19bd880a9c/attachments/62261db8f0ff343d54c67710/previews/62261db9f0ff343d54c67762/download/1.png">
+                </p>
+            </label>
+        </div>
+
+        <div id="historial">
+            <form>
+                <textarea id="hDesenc" placeholder="Aqui aparecerá el historial de texto Desencriptado" readonly></textarea>
+                <textarea id="hEnc" placeholder="Aqui aparecerá el historial de texto Encriptado" readonly></textarea>
+                <div>
+                    <input type="button" id="btnHistDesen" value="Copiar H.
+    Desencriptado">
+                    <input type="button" id="btnHistEncr" value="Copiar H.
+    Encriptado">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p style="text-align: center;">Pablo Velasquez </br> 2022</p>
+    </footer>
+    <script src="PruebaDesEnc4_1.js"></script><!-- Conexion con archivo js -->
+</body>
+
+</html>

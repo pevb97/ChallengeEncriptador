@@ -1,0 +1,104 @@
+header{
+    background: black;
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+div h1, nav, nav li, #btnDesencriptar, #btnEncriptar, #btnHistDesen, #btnHistEncr{
+    display: inline-block;
+}
+header div{
+    width: 90%;
+    position: relative;
+    margin: 2% auto;
+}
+div h1{
+    font-size: x-large;
+    font-style: italic;
+    width: 49%;
+}
+nav{
+    position: absolute;
+    right: 0;
+    width: 49%;
+}
+nav ul{
+    text-align: right;
+}
+nav li{
+    margin: 0 0 0 2%;
+}
+nav a{
+    color: aliceblue;
+    font-size: large;
+    text-decoration: none;
+}
+
+main{
+    background: rgb(126, 0, 42);
+    color: black;
+    height: 1720px;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+#entrada{
+    width: 96%;
+    position: relative;
+    margin: 2% auto;
+    height: 300px;
+}
+#entTexto{
+    background: #9f9f9f;;
+    display: block;
+    width: 99%;
+    height: 250px;
+}
+form div{
+    text-align: center;
+}
+#resultado{
+    width: 96%;
+    position: relative;
+    height: 600px;
+}
+#btnDesencriptar, #btnEncriptar{
+    width: 48%;
+    height: 34px;
+    background:rgb(100, 180, 170);
+}
+div label{
+    position: relative;
+    top: 2%;
+    margin: 0 2%;
+    text-align: center;
+    background:aliceblue;
+    width: 99%;
+}
+#historial{
+    width: 96%;
+    position: relative;
+    margin: 1% auto;
+    height: 760px;
+}
+div textarea{
+    background: #9f9f9f;;
+    display: block;
+    width: 99%;
+    height: 350px;
+}
+#btnHistDesen, #btnHistEncr{
+    width: 48%;
+    height: 34px;
+    background:rgb(100, 132, 180);
+}
+footer{
+    background: black;
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 1800px;
+}
